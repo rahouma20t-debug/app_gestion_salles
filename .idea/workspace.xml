@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add Salle class with attributes and method">
-      <change beforePath="$PROJECT_DIR$/data/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/config.json" afterDir="false" />
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add MySQL config file">
+      <change beforePath="$PROJECT_DIR$/data/dao_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/dao_salle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.dao_salle.executor": "Run",
     "Python.salle.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -131,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776563795349</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add MySQL config file">
+      <option name="closed" value="true" />
+      <created>1776563982898</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776563982898</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +150,7 @@
     <MESSAGE value="Add MySQL configuration file" />
     <MESSAGE value="Create DAO for salle" />
     <MESSAGE value="Add Salle class with attributes and method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Salle class with attributes and method" />
+    <MESSAGE value="Add MySQL config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MySQL config file" />
   </component>
 </project>
