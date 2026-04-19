@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add delete_salle function">
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add method to get all salles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dao_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/dao_salle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/salle_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/salle_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.dao_salle.executor": "Run",
     "Python.salle.executor": "Run",
+    "Python.salle_service.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -173,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776564963331</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add get_salle method">
+      <option name="closed" value="true" />
+      <created>1776565503094</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1776565503094</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add method to get all salles">
+      <option name="closed" value="true" />
+      <created>1776565761834</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1776565761834</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +205,8 @@
     <MESSAGE value="Add insert_salle function" />
     <MESSAGE value="Add update_salle function" />
     <MESSAGE value="Add delete_salle function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add delete_salle function" />
+    <MESSAGE value="Add get_salle method" />
+    <MESSAGE value="Add method to get all salles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method to get all salles" />
   </component>
 </project>
