@@ -31,3 +31,8 @@ class ViewSalle(ctk.CTk):
 
         for s in salles:
             self.tree.insert("", "end", values=(s.code, s.description, s.categorie, s.capacite))
+
+
+
+
+
