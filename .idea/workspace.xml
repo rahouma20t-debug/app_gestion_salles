@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="implement afficher_salles and populate Treeview" />
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="fix afficher_salles values and complete insertion">
+      <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776629887242</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix afficher_salles values and complete insertion">
+      <option name="closed" value="true" />
+      <created>1776630148045</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1776630148045</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,6 +320,7 @@
     <MESSAGE value="Setup GUI base structure" />
     <MESSAGE value="create ViewSalle GUI class" />
     <MESSAGE value="implement afficher_salles and populate Treeview" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement afficher_salles and populate Treeview" />
+    <MESSAGE value="fix afficher_salles values and complete insertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix afficher_salles values and complete insertion" />
   </component>
 </project>

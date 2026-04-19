@@ -30,11 +30,17 @@ class ViewSalle(ctk.CTk):
         self.entry_cap = ctk.CTkEntry(self, placeholder_text="Capacite")
         self.entry_cap.pack()
 
-
-
-
         btn = ctk.CTkButton(self, text="Afficher les salles", command=self.afficher_salles)
         btn.pack(pady=10)
+
+        btn_add = ctk.CTkButton(self, text="Ajouter salle", command=self.ajouter_salle)
+        btn_add.pack(pady=10)
+
+
+
+
+
+
 
     def afficher_salles(self):
         for row in self.tree.get_children():
@@ -45,7 +51,21 @@ class ViewSalle(ctk.CTk):
         for s in salles:
             self.tree.insert("", "end", values=(s.code, s.description, s.categorie, s.capacite))
 
+    def ajouter_salle(self):
+        code = self.entry_code.get()
+        desc = self.entry_desc.get()
+        cat = self.entry_cat.get()
+        cap = self.entry_cap.get()
 
+        try:
+            cap = int(cap)
+        except:
+            print("Capacité invalide")
+            return
 
+        salle = Salle(code, desc, cat, cap)
 
+        success, msg = self.service.ajouter_salle(salle)
+        print(msg)
 
+        self.afficher_salles()
