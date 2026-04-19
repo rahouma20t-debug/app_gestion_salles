@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add method to get all salles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add ServiceSalle class with ajouter_salle method">
       <change beforePath="$PROJECT_DIR$/services/salle_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/salle_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +189,31 @@
       <option name="project" value="LOCAL" />
       <updated>1776565761834</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Create ServiceSalle class">
+      <option name="closed" value="true" />
+      <created>1776566545726</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1776566545726</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add ServiceSalle class with ajouter_salle method">
+      <option name="closed" value="true" />
+      <created>1776566645719</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1776566645719</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add ServiceSalle class with ajouter_salle method">
+      <option name="closed" value="true" />
+      <created>1776566685647</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1776566685647</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +230,8 @@
     <MESSAGE value="Add delete_salle function" />
     <MESSAGE value="Add get_salle method" />
     <MESSAGE value="Add method to get all salles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method to get all salles" />
+    <MESSAGE value="Create ServiceSalle class" />
+    <MESSAGE value="Add ServiceSalle class with ajouter_salle method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ServiceSalle class with ajouter_salle method" />
   </component>
 </project>
