@@ -1,5 +1,6 @@
 import mysql.connector
 import json
+from models.salle import Salle
 
 class DataSalle:
 
@@ -44,3 +45,18 @@ class DataSalle:
 
         conn.commit()
         conn.close()
+
+
+
+    def get_salle(self, code):
+        conn = self.get_connection()
+        cursor = conn.cursor()
+
+        cursor.execute("SELECT * FROM salle WHERE code=%s", (code,))
+        result = cursor.fetchone()
+
+        conn.close()
+
+        if result:
+            return Salle(*result)
+        return None
