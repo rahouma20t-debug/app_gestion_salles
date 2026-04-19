@@ -36,7 +36,8 @@ class ViewSalle(ctk.CTk):
         btn_add = ctk.CTkButton(self, text="Ajouter salle", command=self.ajouter_salle)
         btn_add.pack(pady=10)
 
-
+        btn_delete = ctk.CTkButton(self, text="Supprimer salle", command=self.supprimer_salle)
+        btn_delete.pack(pady=10)
 
 
 
@@ -50,6 +51,18 @@ class ViewSalle(ctk.CTk):
 
         for s in salles:
             self.tree.insert("", "end", values=(s.code, s.description, s.categorie, s.capacite))
+
+    def supprimer_salle(self):
+        selected = self.tree.selection()
+
+        if not selected:
+            print("Aucune salle sélectionnée")
+            return
+
+        for item in selected:
+            self.tree.delete(item)
+
+        print("Salle supprimée")
 
     def ajouter_salle(self):
         code = self.entry_code.get()

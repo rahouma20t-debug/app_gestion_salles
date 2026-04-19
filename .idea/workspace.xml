@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="fix afficher_salles values and complete insertion">
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="fix exception type for capacite">
       <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -294,7 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776630148045</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add ajouter_salle function">
+      <option name="closed" value="true" />
+      <created>1776630497186</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1776630497186</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix exception type for capacite">
+      <option name="closed" value="true" />
+      <created>1776630597745</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1776630597745</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,6 +337,8 @@
     <MESSAGE value="create ViewSalle GUI class" />
     <MESSAGE value="implement afficher_salles and populate Treeview" />
     <MESSAGE value="fix afficher_salles values and complete insertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix afficher_salles values and complete insertion" />
+    <MESSAGE value="add ajouter_salle function" />
+    <MESSAGE value="fix exception type for capacite" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix exception type for capacite" />
   </component>
 </project>
