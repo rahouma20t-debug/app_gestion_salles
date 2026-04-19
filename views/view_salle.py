@@ -18,6 +18,19 @@ class ViewSalle(ctk.CTk):
         self.tree.heading("cap", text="Capacite")
 
         self.tree.pack(pady=20)
+        self.entry_code = ctk.CTkEntry(self, placeholder_text="Code")
+        self.entry_code.pack()
+
+        self.entry_desc = ctk.CTkEntry(self, placeholder_text="Description")
+        self.entry_desc.pack()
+
+        self.entry_cat = ctk.CTkEntry(self, placeholder_text="Categorie")
+        self.entry_cat.pack()
+
+        self.entry_cap = ctk.CTkEntry(self, placeholder_text="Capacite")
+        self.entry_cap.pack()
+
+
 
 
         btn = ctk.CTkButton(self, text="Afficher les salles", command=self.afficher_salles)
