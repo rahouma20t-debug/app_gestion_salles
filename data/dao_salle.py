@@ -60,3 +60,14 @@ class DataSalle:
         if result:
             return Salle(*result)
         return None
+
+    def get_salles(self):
+        conn = self.get_connection()
+        cursor = conn.cursor()
+
+        cursor.execute("SELECT * FROM salle")
+        results = cursor.fetchall()
+
+        conn.close()
+
+        return [Salle(*row) for row in results]
