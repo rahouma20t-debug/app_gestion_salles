@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Initial project setup" />
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add MySQL configuration file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,12 +88,38 @@
       <option name="project" value="LOCAL" />
       <updated>1776560974515</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add project structure (data, models, services, views)">
+      <option name="closed" value="true" />
+      <created>1776561165185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776561165185</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add project structure (data, models, services, views)">
+      <option name="closed" value="true" />
+      <created>1776561260025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776561260025</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add MySQL configuration file">
+      <option name="closed" value="true" />
+      <created>1776561412387</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776561412387</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup + README" />
     <MESSAGE value="Initial project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project setup" />
+    <MESSAGE value="Add project structure (data, models, services, views)" />
+    <MESSAGE value="Add MySQL configuration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MySQL configuration file" />
   </component>
 </project>
