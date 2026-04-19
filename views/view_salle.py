@@ -18,6 +18,7 @@ class ViewSalle(ctk.CTk):
         self.tree.heading("cap", text="Capacite")
 
         self.tree.pack(pady=20)
+        self.lister_salles()
         self.entry_code = ctk.CTkEntry(self, placeholder_text="Code")
         self.entry_code.pack()
 
@@ -30,7 +31,7 @@ class ViewSalle(ctk.CTk):
         self.entry_cap = ctk.CTkEntry(self, placeholder_text="Capacite")
         self.entry_cap.pack()
 
-        btn = ctk.CTkButton(self, text="Afficher les salles", command=self.afficher_salles)
+        btn = ctk.CTkButton(self, text="Afficher les salles", command=self.lister_salles)
         btn.pack(pady=10)
 
         btn_add = ctk.CTkButton(self, text="Ajouter salle", command=self.ajouter_salle)
@@ -39,17 +40,12 @@ class ViewSalle(ctk.CTk):
         btn_delete = ctk.CTkButton(self, text="Supprimer salle", command=self.supprimer_salle)
         btn_delete.pack(pady=10)
 
+    def lister_salles(self):
+        self.tree.delete(*self.tree.get_children())
 
+        liste = self.service.recuperer_salles()
 
-
-
-    def afficher_salles(self):
-        for row in self.tree.get_children():
-            self.tree.delete(row)
-
-        salles = self.service.recuperer_salles()
-
-        for s in salles:
+        for s in liste:
             self.tree.insert("", "end", values=(s.code, s.description, s.categorie, s.capacite))
 
     def supprimer_salle(self):
@@ -60,7 +56,11 @@ class ViewSalle(ctk.CTk):
             return
 
         for item in selected:
-            self.tree.delete(item)
+            values = self.tree.item(item, "values")
+            code = values[0]
+            success, msg = self.service.supprimer_salle(code)
+            print(msg)
+        self.lister_salles()
 
         print("Salle supprimée")
 
@@ -69,6 +69,11 @@ class ViewSalle(ctk.CTk):
         desc = self.entry_desc.get()
         cat = self.entry_cat.get()
         cap = self.entry_cap.get()
+        salle = Salle(code, desc, cat, cap)
+        success, msg = self.service.ajouter_salle(salle)
+
+        print(msg)
+        self.lister_salles()
 
         try:
             cap = int(cap)
@@ -81,4 +86,4 @@ class ViewSalle(ctk.CTk):
         success, msg = self.service.ajouter_salle(salle)
         print(msg)
 
-        self.afficher_salles()
+        self.lister_salles()

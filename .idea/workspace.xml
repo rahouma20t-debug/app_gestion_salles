@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="fix exception type for capacite">
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="add supprimer_salle functionality in GUI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/salle_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/salle_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +53,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.dao_salle.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.salle.executor": "Run",
     "Python.salle_service.executor": "Run",
     "Python.view_salle.executor": "Run",
@@ -310,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1776630597745</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add supprimer_salle functionality in GUI">
+      <option name="closed" value="true" />
+      <created>1776631177195</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1776631177195</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial project setup + README" />
     <MESSAGE value="Initial project setup" />
     <MESSAGE value="Add project structure (data, models, services, views)" />
     <MESSAGE value="Add MySQL configuration file" />
@@ -339,6 +350,7 @@
     <MESSAGE value="fix afficher_salles values and complete insertion" />
     <MESSAGE value="add ajouter_salle function" />
     <MESSAGE value="fix exception type for capacite" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix exception type for capacite" />
+    <MESSAGE value="add supprimer_salle functionality in GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="add supprimer_salle functionality in GUI" />
   </component>
 </project>

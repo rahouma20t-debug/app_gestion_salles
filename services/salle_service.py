@@ -22,7 +22,11 @@ class ServiceSalle:
         return True, "Salle modifiée"
 
     def supprimer_salle(self, code):
-        self.dao.delete_salle(code)
+        try:
+            self.dao.delete_salle(code)
+            return True, "Salle supprimée avec succès"
+        except Exception as e:
+            return False, str(e)
 
     def rechercher_salle(self, code):
         return self.dao.get_salle(code)
