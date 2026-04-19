@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Setup GUI base structure">
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="create ViewSalle GUI class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776567849419</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="create ViewSalle GUI class">
+      <option name="closed" value="true" />
+      <created>1776568050459</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1776568050459</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +287,7 @@
     <MESSAGE value="Add rechercher_salle method to ServiceSalle" />
     <MESSAGE value="Add recuperer_salles method to ServiceSalle" />
     <MESSAGE value="Setup GUI base structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup GUI base structure" />
+    <MESSAGE value="create ViewSalle GUI class" />
+    <option name="LAST_COMMIT_MESSAGE" value="create ViewSalle GUI class" />
   </component>
 </project>
