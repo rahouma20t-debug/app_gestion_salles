@@ -59,7 +59,7 @@ class ViewSalle(ctk.CTk):
 
         try:
             cap = int(cap)
-        except:
+        except ValueError:
             print("Capacité invalide")
             return
 
