@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="add supprimer_salle functionality in GUI">
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="add ajouter_salle functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/salle_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/salle_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dao_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/dao_salle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/view_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/view_salle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -322,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1776631177195</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add ajouter_salle functionality">
+      <option name="closed" value="true" />
+      <created>1776632989271</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1776632989271</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial project setup" />
     <MESSAGE value="Add project structure (data, models, services, views)" />
     <MESSAGE value="Add MySQL configuration file" />
     <MESSAGE value="Create DAO for salle" />
@@ -351,6 +357,7 @@
     <MESSAGE value="add ajouter_salle function" />
     <MESSAGE value="fix exception type for capacite" />
     <MESSAGE value="add supprimer_salle functionality in GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="add supprimer_salle functionality in GUI" />
+    <MESSAGE value="add ajouter_salle functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ajouter_salle functionality" />
   </component>
 </project>

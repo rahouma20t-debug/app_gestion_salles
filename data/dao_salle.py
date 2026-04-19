@@ -71,3 +71,15 @@ class DataSalle:
         conn.close()
 
         return [Salle(*row) for row in results]
+
+    def ajouter_salle(self, salle):
+        conn = self.get_connection()
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "INSERT INTO salle (code, description, categorie, capacite) VALUES (?, ?, ?, ?)",
+            (salle.code, salle.description, salle.categorie, salle.capacite)
+        )
+
+        conn.commit()
+        conn.close()

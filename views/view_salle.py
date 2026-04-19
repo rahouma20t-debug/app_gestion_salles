@@ -39,15 +39,17 @@ class ViewSalle(ctk.CTk):
 
         btn_delete = ctk.CTkButton(self, text="Supprimer salle", command=self.supprimer_salle)
         btn_delete.pack(pady=10)
+        self.lister_salles()
 
     def lister_salles(self):
+
         self.tree.delete(*self.tree.get_children())
+
 
         liste = self.service.recuperer_salles()
 
         for s in liste:
             self.tree.insert("", "end", values=(s.code, s.description, s.categorie, s.capacite))
-
     def supprimer_salle(self):
         selected = self.tree.selection()
 
@@ -69,11 +71,7 @@ class ViewSalle(ctk.CTk):
         desc = self.entry_desc.get()
         cat = self.entry_cat.get()
         cap = self.entry_cap.get()
-        salle = Salle(code, desc, cat, cap)
-        success, msg = self.service.ajouter_salle(salle)
 
-        print(msg)
-        self.lister_salles()
 
         try:
             cap = int(cap)
@@ -82,8 +80,7 @@ class ViewSalle(ctk.CTk):
             return
 
         salle = Salle(code, desc, cat, cap)
-
         success, msg = self.service.ajouter_salle(salle)
-        print(msg)
 
+        print(msg)
         self.lister_salles()
