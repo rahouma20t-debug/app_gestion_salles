@@ -22,3 +22,12 @@ class ViewSalle(ctk.CTk):
 
         btn = ctk.CTkButton(self, text="Afficher les salles", command=self.afficher_salles)
         btn.pack(pady=10)
+
+    def afficher_salles(self):
+        for row in self.tree.get_children():
+            self.tree.delete(row)
+
+        salles = self.service.recuperer_salles()
+
+        for s in salles:
+            self.tree.insert("", "end", values=(s.code, s.description, s.categorie, s.capacite))
