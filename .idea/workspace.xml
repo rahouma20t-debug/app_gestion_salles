@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add MySQL config file">
-      <change beforePath="$PROJECT_DIR$/data/dao_salle.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/dao_salle.py" afterDir="false" />
-    </list>
+    <list default="true" id="2e9c4934-8e53-43f4-996d-5bdf977463a9" name="Changes" comment="Add insert_salle function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776563982898</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add MySQL connection in DAO">
+      <option name="closed" value="true" />
+      <created>1776564303866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776564303866</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add insert_salle function">
+      <option name="closed" value="true" />
+      <created>1776564579045</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776564579045</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +165,8 @@
     <MESSAGE value="Create DAO for salle" />
     <MESSAGE value="Add Salle class with attributes and method" />
     <MESSAGE value="Add MySQL config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add MySQL config file" />
+    <MESSAGE value="Add MySQL connection in DAO" />
+    <MESSAGE value="Add insert_salle function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add insert_salle function" />
   </component>
 </project>
